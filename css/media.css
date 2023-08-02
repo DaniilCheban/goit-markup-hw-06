@@ -25,6 +25,8 @@ max-width: 428px;
     .container{
         max-width: 768px;
     }
+
+    
         .advantages-list {
     
             flex-direction: row;
@@ -76,6 +78,12 @@ max-width: 428px;
                 .footer-social-block{
                     padding: 72px 0 72px;
                 }
+                                .phone-modal-btn {
+                                    display: none;
+                                }
+      .contacts-list{
+        display: block;
+      }
 }
     
                 
@@ -154,7 +162,19 @@ max-width: 428px;
   
     
 }
-@media screen and (max-width:1157px){
+@media screen and (max-width: 768px){
+    .contacts{
+        display: none;
+    }
+        .header-list{
+            display: none;
+        }
+                
+}
+
+
+
+@media screen and (max-width: 1157px){
     .doing-section{
         display: none;
     }
