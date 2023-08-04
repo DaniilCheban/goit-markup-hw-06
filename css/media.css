@@ -203,25 +203,25 @@ max-width: 428px;
                       margin-right: 80px;
                       padding: 0;
                   }
-               .footer-subscribe {
-                
-                padding-left: 80px;
+                        .footer-form {
+                            display: flex;
+                            gap: 24px;
+                            flex-shrink: 0;
+                        }
+            
+                        .subscribe-btn {
+                            margin-left: 0;
+                            margin-top: 0;
+                        }
+            
+                        .contacts-list {
+                            display: flex;
+            
+                        }
                  }
-                .footer-form {
-                    display: flex;
-                    gap: 24px;
-                    flex-shrink: 0;
-                                 }
-                  .subscribe-btn {
-                 margin-left: 0;
-                 margin-top: 0;
-                  }
-                                  .contacts-list {
-                                      display: flex;
-        
-}
+                
 
-}
+
 @media screen and (max-width: 767px){
     .contacts{
         display: none;
