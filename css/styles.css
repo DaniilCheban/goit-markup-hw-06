@@ -585,7 +585,7 @@ link {
     width: 100vw;
     height: 100vh;
     z-index: 2;
-    padding: 40px 35px 40px 40px;
+    padding: 80px 35px 40px 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -614,7 +614,7 @@ link {
 .mob-header-list {
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .mob-adress-link {
@@ -639,7 +639,7 @@ link {
 }
 
 .mob-contacts-list {
-    margin-top: 284px;
+    /* margin-top: 284px; */
     margin-bottom: 48px;
 }
 
@@ -648,7 +648,8 @@ link {
 .mob-contacts-item-m {
     color: #4D5AE5;
     font-family: Roboto;
-    font-size: 36px;
+    font-size: 24px; 
+    /* 36 */
     font-style: normal;
     font-weight: 700;
     line-height: 1.1;
@@ -656,10 +657,18 @@ link {
     text-transform: capitalize;
     margin-bottom: 40px;
 }
+.mob-contacts-item{
+    font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
 
 .mob-link-list {
+max-width: 428px;
     display: flex;
-    gap: 56px;
+    justify-content: space-between;
 }
 
 
