@@ -203,13 +203,27 @@
           <h2 class="doing-head">What are we doing</h2>
           <ul class="doing-list list">
             <li class="doing-item">
-              <img src="./images/computer.jpg" alt="Computer" width="360" />
-            </li>
-            <li class="doing-item">
-              <img src="./images/phone.jpg" alt="Phones" width="360" />
+              <img
+                srcset="./images/computer.jpg 1x, ./images/computer2x.jpeg 2x"
+                src="./images/computer.jpg"
+                alt="Computer"
+                width="360"
+              />
             </li>
             <li class="doing-item">
               <img
+                srcset="./images/phone.jpg 1x, ./images/phone2x.jpeg 2x"
+                src="./images/phone.jpg"
+                alt="Phones"
+                width="360"
+              />
+            </li>
+            <li class="doing-item">
+              <img
+                srcset="
+                  ./images/phone-note.jpg   1x,
+                  ./images/phonehand2x.jpeg 2x
+                "
                 src="./images/phone-note.jpg"
                 alt="Phone-and-notebook"
                 width="360"
